@@ -1,0 +1,23 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "libmark": "node --experimental-vm-modules cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/chalk": "^2.2.0",
+    "chalk": "^4.1.0",
+    "node-fetch": "^3.2.4"
+  },
+  "devDependencies": {
+    "jest": "^28.0.3",
+    "jest-cli": "^28.0.3"
+  }
+}
